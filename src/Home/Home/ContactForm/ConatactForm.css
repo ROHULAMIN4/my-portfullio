@@ -1,0 +1,12 @@
+.contact {
+  background-color: black;
+}
+.text-scolor {
+  color: rgb(231, 113, 92);
+  font-weight: 600;
+}
+.text-whitew {
+  color: rgb(197, 193, 193);
+  text-decoration: underline;
+  padding: 10px;
+}

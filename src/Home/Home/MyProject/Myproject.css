@@ -1,0 +1,66 @@
+.box-img {
+  box-sizing: border-box;
+  transition: 1s;
+  /* border: 2px solid tomato; */
+  padding: 10px;
+  margin: 2px;
+}
+.shado-img {
+  background-image: url(https://i.ibb.co/P5TsjKL/dental.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+.row1 {
+  padding: 50px;
+}
+.shado-img1 {
+  background-image: url(https://i.ibb.co/cyJwm1z/babytoys.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+.shado-img2 {
+  background-image: url(https://i.ibb.co/WxXh6VW/happytour.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+.hinnden {
+  display: none;
+}
+.box-img:hover .hinnden {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+
+  transition: 1s;
+}
+.hidden-title {
+  /* position: absolute;
+  top: 50%;
+  left: 10px; */
+  color: rgb(250, 250, 250);
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.headline {
+  color: rgb(6, 18, 71);
+  padding-top: 40%;
+  font-weight: bold;
+  background-size: cyan;
+}
+
+.project-head {
+  font-family: "Dancing Script", cursive;
+  color: tomato;
+  font-weight: bold;
+  font-size: 40px;
+  /* background-color: rgb(53, 50, 50); */
+  padding: 20px;
+}
+.baclground-row {
+  background-color: #033a70;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
