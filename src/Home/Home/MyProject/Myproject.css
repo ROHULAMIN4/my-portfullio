@@ -28,21 +28,20 @@
 }
 .hinnden {
   display: none;
+  transition: 1s;
 }
 .box-img:hover .hinnden {
+  transition: 0.7s;
   box-sizing: border-box;
   cursor: pointer;
   display: block;
-
-  transition: 1s;
 }
 .hidden-title {
   /* position: absolute;
   top: 50%;
   left: 10px; */
-  color: rgb(250, 250, 250);
+  color: rgb(168, 154, 154);
   box-sizing: border-box;
-  font-weight: bold;
 }
 .headline {
   color: rgb(6, 18, 71);

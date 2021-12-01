@@ -1,0 +1,61 @@
+.skill-head {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), #778899);
+  /* margin-top: 50px; */
+}
+.single-skill {
+  height: 200px;
+  width: 200px;
+  background-image: linear-gradient(
+    to top,
+    transparent,
+    rgba(0, 255, 249, 0.4)
+  );
+  background-color: rgb(46, 45, 45);
+  border-radius: 50%;
+  margin-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: tomato;
+}
+.single-skill:hover {
+  border: 2px solid rgb(255, 255, 255);
+  transition: 0.5s;
+  background-color: rgb(21, 21, 04);
+  background-color: #516868;
+  box-shadow: 0 0 10px #00fff9;
+  box-shadow: 0 0 20px #00fff9;
+  box-shadow: 0 0 30px #00fff9;
+  box-shadow: 0 0 40px #00fff9;
+  box-shadow: 0 0 50px #00fff9;
+  box-shadow: 0 0 60px #00fff9;
+  box-shadow: 0 0 70px #00fff9;
+  box-shadow: 0 0 80px #00fff9;
+  box-shadow: 0 0 90px #00fff9;
+  box-shadow: 0 0 100px #00fff9;
+
+  animation: animate 5s linear infinite;
+  animation-play-state: running;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0 deg);
+  }
+  100% {
+    transform: rotate(360 deg);
+  }
+}
+.single-skill:hover .text-style {
+  color: tomato;
+}
+.heading-skill {
+  font-size: 60px;
+  margin-top: 30%;
+}
+.text-style {
+  color: rgb(139, 133, 133);
+}
+.skill-headin-main {
+  font-family: "Dancing Script", cursive;
+
+  color: tomato;
+}

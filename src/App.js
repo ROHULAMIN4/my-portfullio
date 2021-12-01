@@ -5,6 +5,11 @@ import { css } from "@emotion/react";
 import RingLoader from "react-spinners/RingLoader";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import Home from "./Home/Home/Home";
+
+import Dental from "./Home/Home/Dental/Dental";
+import Tour from "./Home/Home/Tour/Tour";
+import Toys from "./BabyToys/BabyToys";
+import Navigaition from "./Home/Navigation/Navigaition";
 const override = css`
   display: block;
   margin: 0 auto;
@@ -34,8 +39,23 @@ function App() {
       ) : (
         <BrowserRouter>
           <Switch>
-            <Route path="/">
+            <Route exact path="/">
               <Home></Home>
+            </Route>
+            <Route exact path="/home">
+              <Home></Home>
+            </Route>
+            <Route path="/babytoys">
+              <Toys></Toys>
+            </Route>
+            <Route path="/Dental">
+              <Dental></Dental>
+            </Route>
+            <Route path="/tour">
+              <Tour></Tour>
+            </Route>
+            <Route path="/navigation">
+              <Navigaition></Navigaition>
             </Route>
           </Switch>
         </BrowserRouter>

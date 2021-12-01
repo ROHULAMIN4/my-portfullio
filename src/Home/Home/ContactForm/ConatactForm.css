@@ -1,12 +1,20 @@
 .contact {
   background-color: black;
+  padding-bottom: 100px;
 }
 .text-scolor {
-  color: rgb(231, 113, 92);
+  color: rgb(197, 171, 167);
   font-weight: 600;
 }
 .text-whitew {
-  color: rgb(197, 193, 193);
+  font-family: "Dancing Script", cursive;
+
+  color: tomato;
   text-decoration: underline;
   padding: 10px;
+}
+.about {
+  position: sticky;
+  top: 5px;
+  left: 40px;
 }

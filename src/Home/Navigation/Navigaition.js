@@ -3,6 +3,7 @@ import Particles from "react-particles-js";
 import ReactDOM from "react-dom";
 import "./Navigation.css";
 import Typist from "react-typist";
+import { Link } from "react-router-dom";
 const Navigaition = () => {
   const [count, setCount] = useState(1);
   useEffect(() => {
@@ -66,31 +67,39 @@ const Navigaition = () => {
       </div>
       <div className="typist">
         {count ? (
-          <div>
-            <img
-              className="iconsimg"
-              src="https://i.ibb.co/LkqxRnS/195-removebg-preview.png"
-              alt=""
-            />
-            <p className="typis-head">i am Rohul Amin</p>
-            <Typist avgTypingDelay={50} onTypingDone={() => setCount(0)}>
-              <span className="typis-display">full stract web developer</span>
-              <Typist.Backspace count={30} delay={1000} />
-              <span className="typis-display">MERN strack developer</span>
-              <Typist.Backspace count={30} delay={1000} />
-              <span className="typis-display">React js developer</span>
-              <Typist.Backspace count={20} delay={1000} />
-            </Typist>
-            <a
-              className="mt-5"
-              href="https://drive.google.com/file/d/1X1c9W9VNX734KNJgFFUMac6xZ3DObO3D/view?usp=sharing"
-              target="_blank"
-            >
-              <button type="button" class="btn btn-outline-secondary">
-                Download Resume
-              </button>
-            </a>
-          </div>
+          <>
+            <div>
+              <img
+                className="iconsimg"
+                src="https://i.ibb.co/LkqxRnS/195-removebg-preview.png"
+                alt=""
+              />
+              <p className="typis-head">I am Rohul Amin</p>
+              <Typist avgTypingDelay={50} onTypingDone={() => setCount(0)}>
+                <span className="typis-display">full stract web developer</span>
+                <Typist.Backspace count={30} delay={1000} />
+                <span className="typis-display">MERN strack developer</span>
+                <Typist.Backspace count={30} delay={1000} />
+                <span className="typis-display">React js developer</span>
+                <Typist.Backspace count={20} delay={1000} />
+              </Typist>
+              <a
+                className="mt-5"
+                href="https://drive.google.com/file/d/1X1c9W9VNX734KNJgFFUMac6xZ3DObO3D/view?usp=sharing"
+                target="_blank"
+              >
+                <button type="button" class="btn btn-secondary">
+                  Download Resume
+                </button>
+              </a>
+              <a
+                style={{ textDecoration: "none", paddingLeft: "7px" }}
+                href="#about"
+              >
+                About Me <i class="fas fa-arrow-down p-3"></i>
+              </a>
+            </div>
+          </>
         ) : (
           ""
         )}

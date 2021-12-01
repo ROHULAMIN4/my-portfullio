@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import "./Myproject.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Myproject = () => {
   useEffect(() => {
@@ -18,58 +19,34 @@ const Myproject = () => {
               <div className="shado-img">
                 <h3 className="headline">Dental Hospital</h3>
               </div>
-              <div className="hinnden">
-                <p className="hidden-title">
-                  {" "}
-                  Used technology: firebase,React js,React boostrap,nodejs node
-                  express,MongoDB{" "}
-                </p>
 
-                <a href=" https://dental-helathcare.web.app/home">
-                  <Button variant="outline-warning">Live site</Button>{" "}
-                </a>
-                <a href=" https://github.com/ROHULAMIN4/Jerin-Dental">
-                  <Button variant="outline-warning">github</Button>{" "}
-                </a>
-              </div>
+              <Link to="/Dental">
+                <Button className="mt-4" variant="success">
+                  Website Details
+                </Button>
+              </Link>
             </div>
             <div className="col-lg-3 col-sm-12 box-img" data-aos="zoom-in-down">
               <div className="shado-img1">
                 <h3 className="headline">baby Toys</h3>
               </div>
-              <div className="hinnden">
-                <p className="hidden-title">
-                  {" "}
-                  Used technology: firebase,React js,React boostrap,nodejs node
-                  express,MongoDB{" "}
-                </p>
 
-                <a href=" https://baby-toys-6042d.web.app/">
-                  <Button variant="outline-warning">Live site</Button>{" "}
-                </a>
-                <a href=" https://github.com/ROHULAMIN4/Baby_toys">
-                  <Button variant="outline-warning">github</Button>{" "}
-                </a>
-              </div>
+              <Link to="/babytoys">
+                <Button className="mt-4" variant="success">
+                  Website Details
+                </Button>
+              </Link>
             </div>
             <div className="col-lg-4 col-sm-12 box-img" data-aos="zoom-in-down">
               <div className="shado-img2">
                 <h3 className="headline">Happy Tour</h3>
               </div>
-              <div className="hinnden">
-                <p className="hidden-title">
-                  {" "}
-                  Used technology: firebase,React js,React boostrap,nodejs node
-                  express,MongoDB{" "}
-                </p>
 
-                <a href=" https://dental-helathcare.web.app/home">
-                  <Button variant="outline-warning">Live site</Button>{" "}
-                </a>
-                <a href=" https://github.com/ROHULAMIN4/Happy-Tour">
-                  <Button variant="outline-warning">github</Button>{" "}
-                </a>
-              </div>
+              <Link to="/tour">
+                <Button className="mt-4" variant="success">
+                  Website Details
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
