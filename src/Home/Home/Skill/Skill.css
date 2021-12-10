@@ -36,6 +36,9 @@
   animation: animate 5s linear infinite;
   animation-play-state: running;
 }
+.progressbar {
+  background-color: black !important;
+}
 @keyframes animate {
   0% {
     transform: rotate(0 deg);

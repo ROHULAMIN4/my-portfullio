@@ -1,6 +1,8 @@
 import React from "react";
-import { ProgressBar } from "react-bootstrap";
+
 import "./Skill.css";
+import ProgressBar from "react-animated-progress-bar";
+
 const Skill = () => {
   return (
     <div className="skill-head">
@@ -54,6 +56,19 @@ const Skill = () => {
           <h1 className=" heading-skill text-white ">40</h1>
           <p className="text-style">TypeScript.js</p>
         </div>
+
+        {/* <ProgressBar
+          width="400px"
+          height="10px"
+          rect
+          fontColor="gray"
+          percentage="70"
+          rectPadding="1px"
+          rectBorderRadius="20px"
+          trackPathColor="transparent"
+          bgColor="#333333"
+          trackBorderColor="grey"
+        /> */}
       </div>
     </div>
   );

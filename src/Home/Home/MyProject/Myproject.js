@@ -1,57 +1,69 @@
-import React, { useEffect } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import "./Myproject.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
 
 const Myproject = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
-    <>
-      <div style={{ backgroundColor: "black" }}>
-        <div className=" baclground-row">
-          <h2 className="project-head"> My Some project</h2>
-          <div className="row row1">
-            <div className="col-lg-4 col-sm-12 box-img" data-aos="zoom-in-down">
-              <div className="shado-img">
-                <h3 className="headline">Dental Hospital</h3>
-              </div>
+    <div style={{ backgroundColor: "black" }}>
+      <h3 className="project-head">My Project</h3>
+      <div className="row">
+        <div className="col-lg-4 cil-md-6 col-sm-12 box">
+          <div>
+            <img
+              className="img-style"
+              src="https://i.ibb.co/P5TsjKL/dental.png"
+              alt=""
+            />
+          </div>
+          <div className="Description">
+            <h3 className="website-name">
+              This is my awesome jerin dental Website
+            </h3>
+            <Link to="/Dental">
+              <Button className="website-link" variant="outline-warning">
+                Details
+              </Button>
+            </Link>
+          </div>
+        </div>
+        <div className="col-lg-4 cil-md-6 col-sm-12 box">
+          <div>
+            <img
+              className="img-style"
+              src="https://i.ibb.co/cyJwm1z/babytoys.png"
+              alt=""
+            />
+          </div>
+          <div className="Description">
+            <h3 className="website-name">Baby toyes</h3>
 
-              <Link to="/Dental">
-                <Button className="mt-4" variant="success">
-                  Website Details
-                </Button>
-              </Link>
-            </div>
-            <div className="col-lg-3 col-sm-12 box-img" data-aos="zoom-in-down">
-              <div className="shado-img1">
-                <h3 className="headline">baby Toys</h3>
-              </div>
-
-              <Link to="/babytoys">
-                <Button className="mt-4" variant="success">
-                  Website Details
-                </Button>
-              </Link>
-            </div>
-            <div className="col-lg-4 col-sm-12 box-img" data-aos="zoom-in-down">
-              <div className="shado-img2">
-                <h3 className="headline">Happy Tour</h3>
-              </div>
-
-              <Link to="/tour">
-                <Button className="mt-4" variant="success">
-                  Website Details
-                </Button>
-              </Link>
-            </div>
+            <Link to="/babytoys">
+              <Button className="website-link" variant="outline-warning">
+                Details
+              </Button>
+            </Link>
+          </div>
+        </div>
+        <div className="col-lg-4 cil-md-6 col-sm-12 box">
+          <div>
+            <img
+              className="img-style"
+              src="https://i.ibb.co/WxXh6VW/happytour.png"
+              alt=""
+            />
+          </div>
+          <div className="Description">
+            <h3 className="website-name">Happy tour website</h3>
+            <Link to="/tour">
+              <Button className="website-link" variant="outline-warning">
+                Details
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

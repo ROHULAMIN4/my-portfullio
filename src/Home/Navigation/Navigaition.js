@@ -18,10 +18,10 @@ const Navigaition = () => {
           params={{
             particles: {
               number: {
-                value: 20,
+                value: 40,
               },
               size: {
-                value: 4,
+                value: 3,
               },
             },
             interactivity: {

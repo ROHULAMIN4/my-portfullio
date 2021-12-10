@@ -1,0 +1,148 @@
+.myskill {
+  /* display: flex; */
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill-container {
+  margin: 0 auto;
+}
+.skill-container ul {
+  width: 100%;
+  padding: 20px;
+}
+.skill-container li {
+  align-items: initial;
+  color: white;
+  list-style: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 50px 20px;
+  position: relative;
+  box-sizing: border-box;
+}
+.skill-container li::before {
+  content: " ";
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0px;
+  width: 100%;
+  height: 15px;
+  border-radius: 1000px;
+  background-color: rgb(231, 225, 225);
+}
+.skill-container li::after {
+  content: " ";
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0px;
+  width: 0%;
+  height: 15px;
+  border-radius: 1000px;
+  background-image: linear-gradient(rgba(72, 7, 250, 0.959), rgb(84, 189, 221));
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+.skill-container li.html::after {
+  animation-name: html;
+}
+.skill-container li.css::after {
+  animation-name: css;
+}
+.skill-container li.js::after {
+  animation-name: js;
+}
+.skill-container li.boostrap::after {
+  animation-name: boostrap;
+}
+.skill-container li.tailwind::after {
+  animation-name: tailwind;
+}
+/* programming */
+.skill-container li.JavaScript::after {
+  animation-name: JavaScript;
+}
+.skill-container li.React::after {
+  animation-name: React;
+}
+.skill-container li.Node::after {
+  animation-name: Node;
+}
+.skill-container li.MongoDB::after {
+  animation-name: MongoDB;
+}
+.skill-container li.Firebase::after {
+  animation-name: Firebase;
+}
+@keyframes html {
+  to {
+    width: 95%;
+    background-image: linear-gradient(#1fe6ff, #673ab7);
+  }
+}
+@keyframes css {
+  to {
+    width: 90%;
+    background-image: linear-gradient(#1fe5ffa2, #673ab7);
+  }
+}
+@keyframes js {
+  to {
+    width: 85%;
+    background-image: linear-gradient(#1fe6ff, #673ab7);
+  }
+}
+@keyframes boostrap {
+  to {
+    width: 90%;
+    background-image: linear-gradient(#1fe6ff, #673ab7);
+  }
+}
+@keyframes tailwind {
+  to {
+    width: 70%;
+    background-image: linear-gradient(#1fe6ff, #673ab7);
+  }
+}
+
+/* programming */
+@keyframes JavaScript {
+  to {
+    width: 75%;
+    background-image: linear-gradient(#f60000, #002fff);
+  }
+}
+@keyframes React {
+  to {
+    width: 70%;
+    background-image: linear-gradient(#00f673, #ff0000);
+  }
+}
+@keyframes Node {
+  to {
+    width: 65%;
+    background-image: linear-gradient(#77f600f3, #002fff);
+  }
+}
+@keyframes MongoDB {
+  to {
+    width: 50%;
+    background-image: linear-gradient(#f6ac00, #ff0015);
+  }
+}
+@keyframes Firebase {
+  to {
+    width: 70%;
+    background-image: linear-gradient(#f60000, #002fff);
+  }
+}
+.skill-title {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  padding-top: 30px;
+  font-weight: bold;
+  color: white;
+}

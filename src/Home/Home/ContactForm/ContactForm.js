@@ -28,7 +28,7 @@ export const ContactUs = () => {
 
   return (
     <>
-      <div className="contact">
+      <div className="contact App">
         <h2 className="text-whitew">Contact form</h2>
         <hr />
         <h4 className="text-scolor">Do you want to contact with me</h4>
