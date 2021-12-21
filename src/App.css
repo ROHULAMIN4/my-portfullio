@@ -26,7 +26,18 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+@media only screen and (min-device-width: 358px) and (max-device-width: 992px) {
+  .app-style {
+    height: 70vh;
+    width: 100vw;
+  }
+}
+@media screen and (min-width: 993px) {
+  .app-style {
+    height: 90vh;
+    width: 100vw;
+  }
+}
 .App-header {
   min-height: 100vh;
   display: flex;

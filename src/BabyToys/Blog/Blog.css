@@ -1,0 +1,48 @@
+.blog-top {
+  background-color: rgb(19, 19, 19);
+
+  min-height: 100vh;
+}
+.main-blog {
+  width: 80%;
+  margin: 0 auto;
+}
+.typistblog {
+  margin-top: 20px;
+  left: 20%;
+  font-family: "Dancing Script";
+  font-weight: bold;
+  color: red;
+}
+.typis-displayblog {
+  color: tomato;
+  font-size: 40px;
+}
+.typis-displayblog1 {
+  color: rgb(95, 241, 27) !important;
+  font-size: 40px;
+}
+.blog-top h2 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  padding: 30px 0px;
+  font-weight: bold;
+  color: rgb(251, 12, 12);
+  font-size: 40px;
+}
+.blog-top p {
+  color: rgb(207, 200, 200);
+  padding: 20px;
+}
+.blog-top h4 {
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(239, 243, 0);
+}
+.blog-top h3 {
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(239, 243, 0);
+}

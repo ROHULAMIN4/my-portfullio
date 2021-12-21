@@ -18,7 +18,7 @@ const Navigaition = () => {
           params={{
             particles: {
               number: {
-                value: 40,
+                value: 50,
               },
               size: {
                 value: 3,
@@ -83,21 +83,24 @@ const Navigaition = () => {
                 <span className="typis-display">React js developer</span>
                 <Typist.Backspace count={20} delay={1000} />
               </Typist>
-              <a
-                className="mt-5"
-                href="https://drive.google.com/file/d/1X1c9W9VNX734KNJgFFUMac6xZ3DObO3D/view?usp=sharing"
-                target="_blank"
-              >
-                <button type="button" class="btn btn-secondary">
-                  Download Resume
-                </button>
-              </a>
-              <a
-                style={{ textDecoration: "none", paddingLeft: "7px" }}
-                href="#about"
-              >
-                About Me <i class="fas fa-arrow-down p-3"></i>
-              </a>
+              <div className="about-button-style">
+                <a
+                  // className="mt-5"
+                  href="https://drive.google.com/file/d/1X1c9W9VNX734KNJgFFUMac6xZ3DObO3D/view?usp=sharing"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-secondary resume">
+                    Download Resume
+                  </button>
+                </a>
+                <a
+                  id="about-me-button"
+                  // style={{ textDecoration: "none", paddingLeft: "7px" }}
+                  href="#about"
+                >
+                  About Me <i class="fas fa-arrow-down"></i>
+                </a>
+              </div>
             </div>
           </>
         ) : (

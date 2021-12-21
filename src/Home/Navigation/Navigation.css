@@ -16,7 +16,7 @@ p i {
 }
 .typist {
   position: absolute;
-  top: 10px;
+  top: 50px;
   right: 10%;
 }
 .typis-head {
@@ -27,7 +27,51 @@ p i {
   color: #66ffff;
   font-size: 30px;
 }
+@media only screen and (min-device-width: 358px) and (max-device-width: 992px) {
+  .app-style {
+    height: 70vh;
+    width: 100vw;
+  }
+  .typis-display {
+    font-size: 16px;
+  }
+}
 .iconsimg {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+#about-me-button {
+  text-decoration: none;
+  padding-left: 7px;
+}
+.about-button-style {
+  margin-top: 50px;
+}
+@media only screen and (min-device-width: 358px) and (max-device-width: 992px) {
+  .typist {
+    position: absolute;
+    top: 10px;
+    right: 10%;
+  }
+  .iconsimg {
+    width: 150px;
+    height: 150px;
+  }
+  .icons-style {
+    position: fixed !important;
+    left: 5%;
+    top: 20px;
+    position: relative;
+  }
+  .resume {
+    width: 150px;
+    font-size: 13px;
+  }
+  #about-me-button {
+    font-size: 13px;
+  }
+  .about-button-style {
+    margin-top: 40px;
+  }
 }

@@ -1,0 +1,20 @@
+.tiobar-top {
+  position: sticky;
+  top: 0px;
+}
+.topbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e303d;
+}
+.topbar a {
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 15px;
+}
+.topbar img {
+  height: 50px;
+  width: 50px;
+  margin-left: 20%;
+}

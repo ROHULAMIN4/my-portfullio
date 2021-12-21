@@ -10,6 +10,8 @@ import Dental from "./Home/Home/Dental/Dental";
 import Tour from "./Home/Home/Tour/Tour";
 import Toys from "./BabyToys/BabyToys";
 import Navigaition from "./Home/Navigation/Navigaition";
+import Website from "./Home/Wesbite/Website";
+import Blog from "./BabyToys/Blog/Blog";
 const override = css`
   display: block;
   margin: 0 auto;
@@ -58,6 +60,12 @@ function App() {
                 </Route>
                 <Route path="/navigation">
                   <Navigaition></Navigaition>
+                </Route>
+                <Route path="/website">
+                  <Website></Website>
+                </Route>
+                <Route path="/blog">
+                  <Blog></Blog>
                 </Route>
               </Switch>
             </BrowserRouter>

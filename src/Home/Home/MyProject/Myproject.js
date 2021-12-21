@@ -31,12 +31,12 @@ const Myproject = () => {
           <div>
             <img
               className="img-style"
-              src="https://i.ibb.co/cyJwm1z/babytoys.png"
+              src="https://i.ibb.co/9y9W0cX/snmae-2.png"
               alt=""
             />
           </div>
           <div className="Description">
-            <h3 className="website-name">Baby toyes</h3>
+            <h3 className="website-name">Smart watch</h3>
 
             <Link to="/babytoys">
               <Button className="website-link" variant="outline-warning">
